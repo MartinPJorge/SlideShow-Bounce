@@ -1,0 +1,167 @@
+/* ============================================================= */
+/* ======================= FONTELLO ============================ */
+/* ============================================================= */
+@font-face {
+  font-family: 'fontello';
+  src: url('font/fontello.eot?81985238');
+  src: url('font/fontello.eot?81985238#iefix') format('embedded-opentype'),
+       url('font/fontello.woff?81985238') format('woff'),
+       url('font/fontello.ttf?81985238') format('truetype'),
+       url('font/fontello.svg?81985238#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?81985238#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-left:before { content: '\e803'; } /* '' */
+.icon-right:before { content: '\e804'; } /* '' */
+.icon-sun-inv:before { content: '\e801'; } /* '' */
+.icon-left-open:before { content: '\e805'; } /* '' */
+.icon-right-open:before { content: '\e806'; } /* '' */
+.icon-moon-inv:before { content: '\e802'; } /* '' */
+.icon-clock:before { content: '\e800'; } /* '' */
+/* ============================================================= */
+/* ============================================================= */
+
+
+
+
+
+div#slideshow {
+	width: 600px;
+	height: 280px;
+	background-color: grey;
+	padding: 1%;
+	border-radius: 20px;
+}
+
+
+
+div#left-arrow, div#right-arrow {
+	width: 3%;
+	height: 100%;
+	position: relative;
+}
+div#left-arrow > span, div#right-arrow > span {
+	position: relative;
+	top: 45%;
+	cursor: pointer;
+}
+div#left-arrow {float: left;}
+div#right-arrow {float: right}
+
+
+
+div#viewport {
+	overflow: hidden;
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 92%;
+	height: 100%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+	
+div.grupo {
+	position: absolute;
+	width: 98%;
+	height: 100%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+div.grupo:nth-child(1) {left: 0%;}
+div.grupo:nth-child(2) {left: 100%;}
+div.grupo:nth-child(3) {left: 200%;}
+
+div.grupo:first-child > div.elem {background-color: blue;}
+div.grupo:last-child > div.elem {background-color: black;}
+
+
+div.elem {
+	float: left;
+	width: 32%;
+	height: 100%;
+	background-color: green;
+}
+div.elem:first-child {margin-right: 1%;}
+div.elem:nth-child(2) {
+	margin-right: 1%;
+	margin-left: 1%;
+}
+div.elem:last-child {margin-left: 1%;}
+
+
+/* Animaciones hacia la --> */
+@keyframes bounceRightLeft {
+	0%   {left: 0%;}
+	33%  {left: -100%;}
+	66%  {left: -97%}
+	100% {left: -100%;}
+}
+@keyframes bounceRightRight {
+	0%   {left: 100%;}
+	33%  {left: 0%;}
+	66%  {left: 3%}
+	100% {left: 0%;}
+}
+
+/* Animaciones hacia la <-- */
+@keyframes bounceLeftLeft {
+	0%   {left: 0%;}
+	33%  {left: 100%;}
+	66%  {left: 97%}
+	100% {left: 100%;}	
+}
+@keyframes bounceLeftRight {
+	0%   {left: -100%;}
+	33%  {left: 0%;}
+	66%  {left: -3%}
+	100% {left: 0%;}
+}
+
+div.animaLeftLeft { animation: bounceLeftLeft 0.7s; }
+div.animaLeftRight { animation: bounceLeftRight 0.7s; }
+div.animaRightLeft { animation: bounceRightLeft 0.7s; }
+div.animaRightRight { animation: bounceRightRight 0.7s; }

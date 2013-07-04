@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2012 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="left" unicode="&#xe803;" d="M464-97l-446 447 446 446 159-158-177-177 465 0 0-223-465 0 177-176z" horiz-adv-x="928" />
+<glyph glyph-name="right" unicode="&#xe804;" d="M464 797l447-446-447-447-157 159 175 176-464 0 0 224 464 0-175 176z" horiz-adv-x="928" />
+<glyph glyph-name="sun-inv" unicode="&#xe801;" d="M465 574q93 0 158-66t66-158-66-158-158-66-158 66-66 158 66 158 158 66z m57 168q0-24-17-41t-40-17-39 17-17 41 17 40 39 16q24 0 41-16t17-39z m-391-112q0 55 56 55 55 0 55-55 0-56-55-56-56 0-56 56z m-56-223q23 0 40-16t17-40-16-40-40-16-40 17-16 40q0 24 16 40t40 16z m56-335q0 55 56 55 55 0 55-55 0-56-55-56-56 0-56 56z m279-111q0 22 17 39t39 17q24 0 41-17t17-39-17-40-40-17-39 17-17 41z m296 72q-16 16-16 39t16 40 40 17 40-17 16-40-16-39-40-16-40 16z m152 263q-24 0-41 17t-17 40q0 24 17 40t40 16 39-16 17-40-17-40-39-16z m-73 296q-16-17-40-17t-40 17-16 40 16 40 40 17 40-17 16-40-16-40z" horiz-adv-x="928" />
+<glyph glyph-name="left-open" unicode="&#xe805;" d="M414-28l-364 363q-21 21-21 50t21 50l364 363q21 21 50 21t50-21l42-42q21-21 21-50t-21-50l-271-271 271-271q21-21 21-51t-21-50l-42-42q-21-21-50-21t-50 21z" horiz-adv-x="642.857" />
+<glyph glyph-name="right-open" unicode="&#xe806;" d="M613 386q0-29-21-51l-364-363q-21-21-50-21t-50 21l-42 42q-21 22-21 51 0 30 21 50l271 271-271 271q-21 22-21 51 0 30 21 50l42 42q20 21 50 21t50-21l364-363q21-21 21-50z" horiz-adv-x="642.857" />
+<glyph glyph-name="moon-inv" unicode="&#xe802;" d="M706 178q105 0 205 56-42-145-163-238t-275-93q-188 0-322 134t-134 323q0 154 93 275t238 163q-56-100-56-205 0-172 122-293t293-121z" horiz-adv-x="928" />
+<glyph glyph-name="clock" unicode="&#xe800;" d="M464 685q-138 0-236-98t-98-237 98-237 236-98 237 98 99 237-99 237-237 98z m1 112q185 0 316-131t131-316-131-316-316-131-316 131-131 316 131 316 316 131z m152-518l-80-80-109 111q-19 17-19 41l0 223 113 0 0-199z" horiz-adv-x="928" />
+</font>
+</defs>
+</svg>
